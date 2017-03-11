@@ -12,7 +12,7 @@
     android:backgroundTintMode="src_atop"
     android:foregroundTint="#ffffff"
     android:focusable="true"
-    android:background="@mipmap/home_bck">
+    android:background="#c8ecfc">
 
     <Button
         android:layout_width="wrap_content"
@@ -21,10 +21,10 @@
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="@android:color/white"
+        android:textColor="@color/text"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:background="@color/text_background"
+        android:background="@color/button_background1"
         android:layout_gravity="center_horizontal" />
 
     <LinearLayout
@@ -42,8 +42,8 @@
             android:layout_weight="1"
             android:layout_height="45dp"
             android:text="@string/details"
-            android:textColor="@color/text"
-            android:background="@color/button_background1"
+            android:textColor="#ff1100"
+            android:background="@color/text_background"
             android:textStyle="normal|bold"
             android:textAlignment="center"
             android:textSize="@dimen/text_textsize"
@@ -54,8 +54,8 @@
             android:layout_weight="1"
             android:layout_height="45dp"
             android:text=""
-            android:textColor="@color/button_background1"
-            android:background="@color/button_background1"
+            android:textColor="#ff1100"
+            android:background="@color/text_background"
             android:textStyle="normal|bold"
             android:textSize="@dimen/text_textsize"
             android:id="@+id/textView" />
@@ -77,8 +77,8 @@
             android:layout_weight="1"
             android:layout_height="45dp"
             android:text="@string/serial"
-            android:textColor="@color/text"
-            android:background="@color/button_background1"
+            android:textColor="#ff1100"
+            android:background="@color/text_background"
             android:textStyle="normal|bold"
             android:textSize="20sp"
             android:textAlignment="center"
@@ -90,7 +90,7 @@
             android:layout_height="45dp"
             android:text=""
             android:textColor="#ff1100"
-            android:background="@color/button_background1"
+            android:background="@color/text_background"
             android:textStyle="normal|bold"
             android:textSize="@dimen/text_textsize"
             android:id="@+id/textView11" />
@@ -110,7 +110,7 @@
             android:layout_width="fill_parent"
             android:layout_height="45dp"
             android:layout_marginTop="5dp"
-            android:textColor="@android:color/black"
+            android:textColor="@color/text"
             android:textStyle="bold"
             android:textSize="@dimen/button_textsize"
             android:text="PRODUCT_NAME"
@@ -121,7 +121,7 @@
             android:layout_width="fill_parent"
             android:textSize="@dimen/button_textsize"
             android:layout_height="45dp"
-            android:background="@color/button_background1"
+            android:background="@color/text_background"
             android:inputType="text"
             android:maxLength="100"
             android:singleLine="true">
@@ -146,7 +146,7 @@
             android:inputType="text"
             android:maxLength="100"
             android:textSize="@dimen/button_textsize"
-            android:background="@color/button_background1"
+            android:background="@color/text_background"
             android:singleLine="true" />
 
         <TextView
@@ -162,7 +162,7 @@
         <EditText
             android:id="@+id/ed3"
             android:textSize="@dimen/button_textsize"
-            android:background="@color/button_background1"
+            android:background="@color/text_background"
             android:layout_width="fill_parent"
             android:layout_height="45dp"
             android:inputType="textEmailAddress|text"
@@ -181,9 +181,8 @@
                 android:layout_weight="1"
                 android:textStyle="bold"
                 android:layout_height="wrap_content"
-                android:background="@color/button_background2"
-                android:text="@string/save"
-                android:textColor="@android:color/white" />
+                android:background="@color/button_background1"
+                android:text="@string/save" />
 
             <Button
                 android:id="@+id/view_btn"
@@ -191,8 +190,8 @@
                 android:layout_weight="1"
                 android:textStyle="bold"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/white"
-                android:background="@android:color/holo_red_dark"
+                android:textColor="@color/text"
+                android:background="@color/button_background2"
                 android:text="@string/view" />
 
             <Button
@@ -201,9 +200,8 @@
                 android:layout_weight="1"
                 android:textStyle="bold"
                 android:layout_height="wrap_content"
-                android:background="@color/button_background2"
-                android:text="@string/setremainder"
-                android:textColor="@android:color/white" />
+                android:background="@color/button_background1"
+                android:text="@string/setremainder" />
 
         </LinearLayout>
     </LinearLayout>

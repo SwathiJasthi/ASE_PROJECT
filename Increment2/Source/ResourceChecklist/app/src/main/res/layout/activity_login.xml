@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@mipmap/login_bck"
+    android:background="@mipmap/back1"
     android:layout_gravity="center"
     tools:context="tutorial.cs5551.com.homeapp.LoginActivity">
 
@@ -18,12 +18,14 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:background="@mipmap/header1"
             android:layout_gravity="center"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_login" />
+
 
 
 </android.support.design.widget.CoordinatorLayout>
