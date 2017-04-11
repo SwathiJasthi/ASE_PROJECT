@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ResourceMonitoring</string>
+    <string name="set">Choose Date And Time </string>
+    <string name="scan">SCAN ITEM</string>
+    <string name="details">Details:</string>
+    <string name="serial">Serial No:</string>
+    <string name="Info">Information</string>
+    <string name="lookup">Look Up In Web</string>
+    <string name="history">History</string>
+    <string name="user">BORROWER INFO</string>
+    <string name="name">Name:</string>
+    <string name="email">Email id:</string>
+    <string name="phone">Phone number:</string>
+    <string name="bdate">Borrowed Date:</string>
+    <string name="ddate">Due Date:</string>
+    <string name="contacts">Look up contacts</string>
+    <string name="remainder">Send Remainder</string>
+    <string name="setremainder">SEND REMINDER</string>
+    <string name="title">RESOURCE MONITORING</string>
+    <string name="barcode">SCAN THROUGH BARCODE</string>
+    <string name="product">PRODUCT NAME</string>
+    <string name="product_info">PRODUCT DETAILS</string>
+    <string name="pic">TAKE PICTURE</string>
+    <string name="manually">ENTER DETAILS MANUALLY</string>
+    <string name="image_view_camera">This is a camera image</string>
+    <string name="save">SAVE</string>
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="view">VIEW DETAILS</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="menu">
+        <item>DELETE INFO</item>
+        <item>SEND REMAINDER</item>
+    </string-array>
+</resources>
