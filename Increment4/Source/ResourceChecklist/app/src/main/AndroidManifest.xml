@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tutorial.cs5551.com.homeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/resources"
+        android:label="Resource Checklist"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="Resource Checklist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".data.TaskUpdateService"
+            android:exported="false" />
+        <service
+            android:name=".ReminderAlarmService"
+            android:exported="false" />
+
+        <provider
+            android:name=".data.TaskProvider"
+            android:authorities="tutorial.cs5551.com.homeapp"
+            android:exported="false" />
+
+        <activity android:name=".ActivityHistory" />
+        <activity android:name=".PricesActivity"></activity>
+    </application>
+
+</manifest>

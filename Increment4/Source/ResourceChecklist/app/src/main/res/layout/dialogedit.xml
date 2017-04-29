@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:orientation="vertical">
+
+    <!--  <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#000000"
+          android:gravity="center"
+          android:text="UPDATE REMAINDER!!"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+          android:textColor="#ffffff" />-->
+
+    <TextView
+        android:id="@+id/dialogitemnameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Item Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/dialogpersonnameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe6f2"
+        android:gravity="center"
+        android:text="Item Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorAccent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#66ff66"
+            android:gravity="center"
+            android:text="E-MAIL"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dialogbemailET"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="2.5"
+            android:background="#e6ffe6"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="2dp"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#48a3e6"
+            android:gravity="center"
+            android:text="Due Date"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dialogduedateTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:background="#d2e9f9"
+            android:paddingStart="2dp"
+            android:text="Due Date"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <Button
+            android:id="@+id/dialogupdatebtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/dialogcancelbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Cancel" />
+    </TableRow>
+</LinearLayout>
